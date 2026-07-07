@@ -1,0 +1,22 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+.vs/
+
+# Publish output
+publish/
+installer/
+
+# IDE
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.nupkg
+*.log
+*.cache
