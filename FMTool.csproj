@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+     <ApplicationIcon>Resources\app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>FMTool-1.0.0</AssemblyName>
+    <RootNamespace>FMTool</RootNamespace>
+    <Version>1.0.1</Version>
+    <Authors>zxc1337</Authors>
+    <Product>FMTool</Product>
+    <Copyright>Copyright © 2026 zxc1337 - Made for FunMoon</Copyright>
+    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Square.jpg" />
+    <Resource Include="Resources\Circle.png" />
+    <Resource Include="Resources\app.ico" />
+    <Resource Include="Resources\Icons\*.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="APPS\cleaningdetector.exe" Condition="Exists('APPS\cleaningdetector.exe')" />
+    <EmbeddedResource Include="APPS\InjGen.exe" Condition="Exists('APPS\InjGen.exe')" />
+    <EmbeddedResource Include="APPS\JournalTrace.exe" Condition="Exists('APPS\JournalTrace.exe')" />
+    <EmbeddedResource Include="APPS\PathsParser.exe" Condition="Exists('APPS\PathsParser.exe')" />
+    <EmbeddedResource Include="APPS\PrefetchView++.exe" Condition="Exists('APPS\PrefetchView++.exe')" />
+    <EmbeddedResource Include="APPS\luyten-0.5.4.exe" Condition="Exists('APPS\luyten-0.5.4.exe')" />
+    <EmbeddedResource Include="APPS\shellbag_analyzer_cleaner.exe" Condition="Exists('APPS\shellbag_analyzer_cleaner.exe')" />
+    <EmbeddedResource Include="APPS\Everything-1.5.0.1404a.x64\Everything.exe" Condition="Exists('APPS\Everything-1.5.0.1404a.x64\Everything.exe')" />
+    <EmbeddedResource Include="APPS\executedprogramslist\ExecutedProgramsList.exe" Condition="Exists('APPS\executedprogramslist\ExecutedProgramsList.exe')" />
+    <EmbeddedResource Include="APPS\usbdrivelog\USBDriveLog.exe" Condition="Exists('APPS\usbdrivelog\USBDriveLog.exe')" />
+    <EmbeddedResource Include="APPS\HxD.exe" Condition="Exists('APPS\HxD.exe')" />
+    <EmbeddedResource Include="APPS\SystemInformer\systeminformer-setup.exe" Condition="Exists('APPS\SystemInformer\systeminformer-setup.exe')" />
+  </ItemGroup>
+
+</Project>
