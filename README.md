@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/FMTool-v1.0.1-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/FMTool-v1.0.2-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/platform-Windows%20x64-success?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/license-MIT-orange?style=for-the-badge"/>
@@ -77,11 +77,11 @@
 ## 📥 Установка
 
 ### Вариант 1: Портативная версия
-1. Скачай `FMTool-1.0.1.exe`
+1. Скачай `FMTool-1.0.2.exe`
 2. Запусти — и пользуйся
 
 ### Вариант 2: Установщик
-1. Скачай `FMTool-Setup-1.0.1.exe`
+1. Скачай `FMTool-Setup-1.0.2.exe`
 2. Запусти, следуй инструкциям
 3. Ярлык появится в Пуске и на рабочем столе
 
