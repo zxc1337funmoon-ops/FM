@@ -1,245 +1,192 @@
-<div align="center">
+# FunMoon Tools
 
-# 🛠️ FMTool
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zxc1337funmoon-ops/FM/main/assets/Circle.png" alt="FunMoon Logo" width="384">
+</p>
 
-### ✅ Minecraft Anti-Cheat Toolkit · Mod Checker · File Forensics
+<p align="center">
+  <b>Элегантный набор инструментов для модерации на сервере <b>FunMoon</b> — всё в одном моде</b>
+</p>
 
-**Мощный инструмент для проверки Minecraft модов на наличие читов, анализа подозрительных файлов и цифровой форензики. Разработан специально для серверов **FunMoon**.**
+<br>
 
-[![Release](https://img.shields.io/github/v/release/zxc1337funmoon-ops/FM?style=for-the-badge&logo=github&color=3178C6&label=Release)](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/zxc1337funmoon-ops/FM/total?style=for-the-badge&logo=docusign&color=3178C6&label=Downloads)](https://github.com/zxc1337funmoon-ops/FM/releases)
-[![Stars](https://img.shields.io/github/stars/zxc1337funmoon-ops/FM?style=for-the-badge&logo=github&color=3178C6&label=Stars)](https://github.com/zxc1337funmoon-ops/FM)
-[![License](https://img.shields.io/badge/License-MIT-3178C6?style=for-the-badge&logo=opensourceinitiative)](LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-8.0-7B1FA2?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
-[![Windows](https://img.shields.io/badge/Windows-10|11-0078D6?style=for-the-badge&logo=windows)](https://github.com/zxc1337funmoon-ops/FM/releases)
+<p align="center">
+  <a href="https://github.com/zxc1337funmoon-ops/FM/releases"><img src="https://img.shields.io/github/v/release/zxc1337funmoon-ops/FM?style=for-the-badge&label=%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F&color=%233178C6&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSI2IDkgMTIgMTUgMTggOSIvPjwvc3ZnPg=="></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM/releases/latest"><img src="https://img.shields.io/github/downloads/zxc1337funmoon-ops/FM/total?style=for-the-badge&label=%D0%A1%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F&color=%2328A745&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMjEgMTV2NGEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMnYtNCIvPjxwb2x5bGluZSBwb2ludHM9IjcgMTAgMTIgMTUgMTcgMTAiLz48bGluZSB4MT0iMTIiIHkxPSIxNSIgeDI9IjEyIiB5Mj0iMyIvPjwvc3ZnPg=="></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM/issues"><img src="https://img.shields.io/github/issues/zxc1337funmoon-ops/FM?style=for-the-badge&label=%D0%97%D0%B0%D0%BC%D0%B5%D1%87%D0%BA%D0%B8&color=%23D73A49&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxsaW5lIHgxPSIxMiIgeTE9IjgiIHgyPSIxMiIgeTI9IjEyIi8+PGxpbmUgeDE9IjEyIiB5MT0iMTYiIHgyPSIxMi4wMSIgeTI9IjE2Ii8+PC9zdmc+"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/github/stars/zxc1337funmoon-ops/FM?style=for-the-badge&label=%D0%97%D0%B2ё%D0%B7%D0%B4%D1%8B&color=%23E6B91E&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjZTZiOTFlIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW4InJvdW5kIj48cG9seWdvbiBwb2ludHM9IjEyIDIgMTUuMDkgOC4yNiAyMiA5LjI3IDE3IDE0LjE0IDE4LjE4IDIxLjAyIDEyIDE3Ljc3IDUuODIgMjEuMDIgNyAxNC4xNCAyIDkuMjcgOC45MSA4LjI2IDEyIDIiLz48L3N2Zz4="></a>
+</p>
 
-</div>
+<br>
 
 ---
 
-## 📋 Содержание
+## 👋 О проекте
 
-| 🎯 О FMTool | ⚙️ Возможности | 🖼️ Report Window |
+<b>FunMoon Tools</b> — это компактная, но мощная утилита для модераторов майнкрафт-сервера <b>FunMoon</b>. Всё, что нужно для быстрой и эффективной модерации, всегда под рукой.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zxc1337funmoon-ops/FM/main/assets/Square.jpg" alt="FunMoon Screenshot" width="720">
+  <br>
+  <i>Интерфейс программы — всё чётко и по делу</i>
+</p>
+
+---
+
+## ✨ Возможности
+
+| | Возможность | Описание |
 |---|---|---|
-| 🛠️ Инструменты | 🎨 Темы оформления | 🌍 Языки |
-| 📦 Установка | 💻 Системные требования | ❓ FAQ |
-| 📝 Список изменений | 🧭 Планы | 📄 Лицензия |
-
----
-
-## 🎯 О FMTool
-
-> **FMTool** — это швейцарский нож для модератора Minecraft. Он не просто сканирует файлы — он анализирует, сравнивает и находит то, что скрыто от глаз.
-
-| Для кого | Зачем |
-|:---|:---|
-| 🛡️ Модераторы Minecraft | 🔍 Проверить подозрительный мод |
-| 👨‍💻 Администраторы | 📋 Собрать доказательства для бана |
-| 🛡️ Специалисты безопасности | ⚙️ Автоматизировать проверки |
-
----
-
-## ⚙️ Возможности
-
-### 🕵️ Mod Checker — ядро программы
-
-| 🧬 | Описание |
-|:---|:---|
-| 🧪 **300+ сигнатур** | 300+ сигнатур известных читов |
-| 🔐 **SHA-256 хэш** | SHA-256 хэш для идентификации файлов |
-| ⚙️ **Байт-код анализ** | Байт-код анализ подозрительных паттернов |
-| 📊 **Оценка угрозы** | Оценка угрозы от 0 до 100+ |
-| ⚡ **Параллельное сканирование** | Параллельное сканирование в 4 потока |
-
-### 📦 Форензика файлов
-
-| Модуль | Описание |
-|:---|:---|
-| 🛡️ **PE-анализатор** | PE-анализатор для .exe/.dll |
-| 📈 **Энтропия** | Энтропия для выявления упаковщиков |
-| 📜 **YARA-правила** | YARA-правила для точных срабатываний |
-| 🔤 **Строки** | Извлечение текста из бинарников |
-| 📂 **Группировка** | Группировка по 5 уровням угрозы |
-
-### 📊 Report Window
-
-- 🖳️ Два окна с удобной навигацией
-- 📤 Экспорт в TXT, HTML, JSON — простой текст, HTML с подсветкой, JSON для машинной обработки
-
-### ⚙️ Удобства
-
-| | | |
-|:---:|:---:|:---:|
-| 🔄 Автообновление | 🖱️ Drag-and-drop | 🎨 Плавные темы |
-| 📐 Адаптивный интерфейс | ⌨️ Горячие клавиши | 🚀 Автозапуск |
+| 🔑 | Быстрый доступ | Все инструменты в одном окне |
+| ⚡ | Мгновенные команды | Отправка одним кликом |
+| 📂 | История наказаний | Локальная хранение истории <code>/hist</code> |
+| 💡 | Умные пресеты | Преднастроенные причины и время |
+| 🛡️ | Безопасность | Работает через ваши права на сервере |
+| 🌐 | Актуальность | Доступно несколько версий (портаблен) |
 
 ---
 
 ## 🛠️ Инструменты
 
-Панель быстрого доступа к **14 утилитам** для расследований:
-
-| # | Имя | Назначение |
-|:---:|:---|:---|
-| 1 | 🧰 HxD | Шестнадцатеричный редактор |
-| 2 | 🔎 Everything | Мгновенный поиск файлов |
-| 3 | 📊 SystemInformer | Мониторинг процессов |
-| 4 | ☕ Luyten | Декомпилятор Java |
-| 5 | 📁 PrefetchView++ | Анализ Prefetch-файлов |
-| 6 | 💾 USBDriveLog | Журнал USB-устройств |
-| 7 | 📜 JournalTrace | Анализ USN Journal |
-| 8 | 🗂️ ShellBag Analyzer | Разбор ShellBag-данных |
-| 9 | 📋 ExecutedProgramsList | Список запускаемых программ |
-| 10 | 🧹 CleaningDetector | Обнаружение чисток |
-| 11 | 🔗 PathsParser | Парсинг путей |
-| 12 | 💉 InjGen | Обнаружение инъекций |
-| 13 | ☕ Java JRE 8 | Установщик Java JRE 8 |
-| 14 | ➕ И другие | Постоянно добавляются |
-
----
-
-## 🎨 Темы оформления
-
-| Тема | Описание |
-|:---|:---|
-| **Dark** ⚫ | Классическая тёмная, минимализм |
-| **Arctic** ❄️ | Холодная сине-голубая |
-| **Emerald** 💚 | Глубокая изумрудная |
-| **Rose** 🌹 | Мягкая розовая гамма |
-| **Cherry** 🍒 | Насыщенная красная |
-| **Gold** ⭐ | Роскошная золотистая |
-| **Violet** 💜 | Фиолетовая, мистическая |
-
-> Все темы поддерживают: плавные переходы, сглаженные углы, эффект стекла (Mica) на Windows 10/11.
-
----
-
-## 🌍 Языки
-
-| | 🇷🇺 Русский | 🇬🇧 Английский |
-|:---|:---:|:---:|
-| 🖥️ Интерфейс | ✅ | ✅ |
-| 📝 Отчёты | ✅ | ✅ |
-| 🔄 Переключение | На лету, без перезапуска |
-
----
-
-## 📦 Установка
-
-### 🚀 Быстрый старт
-```
-1. Скачай последний релиз
-2. Запусти .exe
-3. Готово!
-```
-
-| | 📦 Портативная версия | 🖥️ Установщик |
-|:---|:---:|:---:|
-| 🚫 Не оставляет следов | ✅ | ❌ |
-| 💾 Работает с флешки | ✅ | ❌ |
-| 🗺️ Ярлык в меню Пуск | ❌ | ✅ |
-| 📁 Ассоциации файлов | ❌ | ✅ |
-| 🔑 Требует права админа | ❌ | ✅ |
-
-> ⚠️ **Антивирус может ругаться** — это нормально для инструментов безопасности. Добавь папку в исключения.
+<table>
+  <tr>
+    <th align="center">Иконка</th>
+    <th align="left">Инструмент</th>
+    <th align="left">Команда</th>
+    <th align="left">Описание</th>
+  </tr>
+  <tr>
+    <td align="center">🛡️</td>
+    <td><b>Warn</b></td>
+    <td><code>/warn №ник Пункт 4.x</code></td>
+    <td>Выдать предупреждение на 14 дней</td>
+  </tr>
+  <tr>
+    <td align="center">🔇</td>
+    <td><b>Mute</b></td>
+    <td><code>/mute №ник Пункт 2.x время</code></td>
+    <td>Заблокировать чат</td>
+  </tr>
+  <tr>
+    <td align="center">📲</td>
+    <td><b>DupeIP</b></td>
+    <td><code>/dupeip ник</code></td>
+    <td>Проверить альтернативы игрока</td>
+  </tr>
+  <tr>
+    <td align="center">🔍</td>
+    <td><b>CheckBan</b></td>
+    <td><code>/checkban ник</code></td>
+    <td>Проверить статус бана</td>
+  </tr>
+  <tr>
+    <td align="center">👁️</td>
+    <td><b>Spec</b></td>
+    <td><code>/spec ник</code></td>
+    <td>Наблюдать за игроком</td>
+  </tr>
+  <tr>
+    <td align="center">💬</td>
+    <td><b>SC</b></td>
+    <td><code>/sc текст</code></td>
+    <td>Написать в стафф-чат</td>
+  </tr>
+  <tr>
+    <td align="center">📋</td>
+    <td><b>Report Menu</b></td>
+    <td><code>/report menu</code></td>
+    <td>Открыть меню репортов</td>
+  </tr>
+  <tr>
+    <td align="center">📄</td>
+    <td><b>History</b></td>
+    <td><code>/hist ник</code></td>
+    <td>Показать локальную историю</td>
+  </tr>
+</table>
 
 ---
 
-## 💻 Системные требования
+## 📺 Установка
 
-| Параметр | Требование |
-|:---|:---|
-| 🖥️ **ОС** | Windows 10 / 11 (x64) |
-| 🧠 **RAM** | от 2 GB |
-| 💾 **Диск** | ~250 MB (setup) / ~50 MB (portable) |
-| 📦 **.NET** | Встроен (self-contained) |
+<pre>
+<b>Шаг 1:</b> Скачайте <code>FMTool-Installer.exe</code> из раздела <a href="https://github.com/zxc1337funmoon-ops/FM/releases/latest">Releases</a>
+<b>Шаг 2:</b> Запустите и следуйте инструкциям установщика
+<b>Шаг 3:</b> После установки запустите ярлык на рабочем столе
+<b>Шаг 4:</b> Нажмите <code>RShift</code> в игре для открытия меню
+</pre>
+
+> 🚧 Требуется <b>Fabric Loader 0.15+</b> и <b>Fabric API</b> для версии майнкрафта 1.21.x. При установке всё необходимое будет загружено автоматически.
+
+---
+
+## 🎉 Планы
+
+- [x] Базовые инструменты (Warn, Mute, DupeIP, CheckBan, Spec, SC)
+- [x] Система истории наказаний <code>/hist</code>
+- [x] Редактируемый конфиг с пресетами
+- [x] Полная русификация интерфейса
+- [ ] Поиск игрока через серверный API
+- [ ] Экспорт логов в файл
+- [ ] Темная тема интерфейса
+- [ ] Поддержка Forge
 
 ---
 
 ## ❓ FAQ
 
 <details>
-<summary><b>🛡️ Антивирус удаляет FMTool. Что делать?</b></summary>
-
-Добавь папку с программой в исключения антивируса. FMTool — это инструмент безопасности с открытым исходным кодом. Ты всегда можешь проверить исходники и собрать сам.
+<summary><b>Что такое FMTool?</b></summary>
+<br>
+Это мод для майнкрафт на Fabric, который даёт модераторам сервера FunMoon быстрый доступ ко всем инструментам модерации прямо из игры.
 </details>
 
 <details>
-<summary><b>🛠️ Не открываются утилиты (Luyten, HxD...)?</b></summary>
-
-FMTool только открывает уже установленные программы. Скачай их отдельно и установи.
+<summary><b>Как открыть меню?</b></summary>
+<br>
+Нажмите <code>RShift</code> (правый Shift) во время игры. Появится окно со всеми инструментами.
 </details>
 
 <details>
-<summary><b>☕ Не работает декомпиляция Java?</b></summary>
-
-Нажми кнопку **Java JRE 8** в панели утилит — установщик сам скачает и настроит всё необходимое.
+<summary><b>Как поменять причины или время наказаний?</b></summary>
+<br>
+Откройте файл <code>.minecraft/config/fm-moderation.json</code> любым текстовым редактором и измените нужные параметры. После сохранения изменения применятся автоматически.
 </details>
 
 <details>
-<summary><b>🐧 Будет версия для macOS / Linux?</b></summary>
-
-Пока нет. FMTool использует Windows API для анализа PE-файлов, работы с реестром и системными утилитами.
+<summary><b>Нужен ли Fabric API?</b></summary>
+<br>
+Да, мод работает только с Fabric API на версии 1.21.x. Установщик загрузит его автоматически.
 </details>
 
 <details>
-<summary><b>🤝 Хочу помочь проекту!</b></summary>
-
-Ставь ⭐, сообщай о багах, предлагай идеи, улучшай документацию.
+<summary><b>Что делать, если нашёл баг?</b></summary>
+<br>
+Создайте <a href="https://github.com/zxc1337funmoon-ops/FM/issues/new">новую заметку</a> в разделе Issues. Подробно опишите проблему и приложите логи, если возможно.
 </details>
 
 ---
 
-## 🧭 Планы
+## 📝 Что нового
 
-- [x] 🔍 Mod Checker (300+ сигнатур)
-- [x] 📦 File Forensics (PE, энтропия, YARA)
-- [x] 🎨 7 тем оформления
-- [x] 🛠️ 14 встроенных утилит
-- [x] 🌍 Двуязычный интерфейс
-- [ ] 📸 Скриншоты в README
-- [ ] 🎬 Демо GIF
-- [ ] 📦 CI/CD автоматическая сборка
-- [ ] 🌐 Веб-версия отчётов
-- [ ] 🔗 API для интеграции с сервером
-- [ ] 🧪 Тестовый режим (sandbox)
-- [ ] 📱 Telegram Bot уведомления
+### 1.0.0 — Первый релиз
+- Базовые инструменты модерации (все команды)
+- Система локальной истории
+- Редактируемый конфиг
+- Русский язык интерфейса
 
 ---
 
-## 📝 Список изменений
+## 📜 Лицензия
 
-### 🟢 v1.0.2 — Исправления и улучшения
-- ☕ Добавлен установщик Java JRE 8
-- 🔍 Поиск по классам на вкладке Classes
-- 🛡️ Исправлен парсинг сигнатур
-- 📋 70+ системных файлов в белый список
-- 🛑 Улучшен обработка UAC
-
-### 🟡 v1.0.1 — Чистка
-- 🧹 Удалены дубликаты и мусор
-
-### 🔴 v1.0.0 — Первый релиз
-- 🔍 Mod Checker, сканер, 7 тем, 12 утилит
+Этот проект распространяется под лицензией <b>MIT</b>. Смотрите файл <a href="https://github.com/zxc1337funmoon-ops/FM/blob/main/LICENSE">LICENSE</a> для подробностей.
 
 ---
 
-## 📄 Лицензия
-
-MIT License. См. [LICENSE](LICENSE).
-
----
-
-<div align="center">
-
----
-
-**FMTool** — Сделано с любовью для сообщества **FunMoon**
-
-🧑‍💻 Автор: **zxc1337** · FunMoon Team © 2025
-
-[![Release](https://img.shields.io/badge/-%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-3178C6?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
-[![Bugs](https://img.shields.io/badge/-%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B8%D1%82%D1%8C_%D0%BE_%D0%B1%D0%B0%D0%B3%D0%B5-red?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/issues)
-[![Ideas](https://img.shields.io/badge/-%D0%9F%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B8%D1%82%D1%8C_%D0%B8%D0%B4%D0%B5%D1%8E-green?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/issues)
-
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zxc1337funmoon-ops/FM/main/assets/Circle.png" alt="FunMoon" width="128">
+  <br>
+  <sub>Сделано с любовью для сервера <b>FunMoon</b> ✨</sub>
+  <br>
+  <sub>© 2026 zxc1337 / FunMoon</sub>
+</p>
