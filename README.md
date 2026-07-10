@@ -23,15 +23,25 @@
 
 <br>
 
-<!-- ==================== BADGES ==================== -->
+<!-- ==================== BADGES ====================
+     Row 1: Действия       Row 2: Информация    Row 3: Возможности
+-->
 <p align="center">
-  <a href="https://github.com/zxc1337funmoon-ops/FM/releases/latest"><img src="https://img.shields.io/badge/%F0%9F%93%A6-v1.0.3-3178C6?style=for-the-badge&logo=github" alt="v1.0.3"></a>
-  <a href="https://github.com/zxc1337funmoon-ops/FM/releases"><img src="https://img.shields.io/badge/%E2%AC%87-%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-28A745?style=for-the-badge&logo=github" alt="Скачать"></a>
-  <a href="https://github.com/zxc1337funmoon-ops/FM/issues/new"><img src="https://img.shields.io/badge/%F0%9F%90%9B-%D0%91%D0%B0%D0%B3-D73A49?style=for-the-badge&logo=github" alt="Баг"></a>
+  <!-- ════ ДЕЙСТВИЯ ════ -->
+  <a href="https://github.com/zxc1337funmoon-ops/FM/releases/latest"><img src="https://img.shields.io/badge/%F0%9F%93%A6%20%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F-v1.0.3-3178C6?style=for-the-badge&logo=github" alt="Версия v1.0.3"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM/releases"><img src="https://img.shields.io/badge/%E2%AC%87%20%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Installer-28A745?style=for-the-badge&logo=github" alt="Скачать"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM/issues/new"><img src="https://img.shields.io/badge/%F0%9F%90%9B%20%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B8%D1%82%D1%8C-%D0%BE%20%D0%B1%D0%B0%D0%B3%D0%B5-D73A49?style=for-the-badge&logo=github" alt="Баг"></a>
+  <!-- ════ ИНФОРМАЦИЯ ════ -->
   <br>
-  <a href="https://github.com/zxc1337funmoon-ops/FM/blob/main/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C-MIT-7B1FA2?style=for-the-badge&logo=open-source-initiative" alt="MIT"></a>
-  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%92%BB-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows" alt="Windows"></a>
-  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%94%AE-.NET%208-512BD4?style=for-the-badge&logo=dotnet" alt=".NET 8"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM/blob/main/LICENSE"><img src="https://img.shields.io/badge/%F0%9F%93%9C%20%D0%9B%D0%B8%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F-MIT-7B1FA2?style=for-the-badge&logo=open-source-initiative" alt="MIT"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%92%BB%20%D0%9F%D0%BB%D0%B0%D1%82%D1%84%D0%BE%D1%80%D0%BC%D0%B0-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows" alt="Windows 10/11"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%94%AE%20.NET-8.0-512BD4?style=for-the-badge&logo=dotnet" alt=".NET 8"></a>
+  <!-- ════ ВОЗМОЖНОСТИ ════ -->
+  <br>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%9B%A1%20%D0%A2%D0%B8%D0%BF-%D0%90%D0%BD%D1%82%D0%B8%D1%87%D0%B8%D1%82%20%D1%84%D0%BE%D1%80%D0%B5%D0%BD%D0%B7%D0%B8%D0%BA%D0%B0-6B7280?style=for-the-badge&logo=github" alt="Античит форензика"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%94%8D%20%D0%A1%D0%B8%D0%B3%D0%BD%D0%B0%D1%82%D1%83%D1%80-500%2B-E6B91E?style=for-the-badge&logo=github" alt="500+ сигнатур"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%E2%9A%99%20%D0%A3%D1%82%D0%B8%D0%BB%D0%B8%D1%82-12%20%D1%88%D1%82.-FF6600?style=for-the-badge&logo=github" alt="12 утилит"></a>
+  <a href="https://github.com/zxc1337funmoon-ops/FM"><img src="https://img.shields.io/badge/%F0%9F%8E%A8%20%D0%A2%D0%B5%D0%BC-7%20%D1%88%D1%82.-8B5CF6?style=for-the-badge&logo=github" alt="7 тем"></a>
 </p>
 
 ---
