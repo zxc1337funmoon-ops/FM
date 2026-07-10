@@ -1,70 +1,245 @@
 <div align="center">
 
-# FMTool
+# 🛠️ FMTool
 
-### Minecraft Anti-Cheat Toolkit · Mod Checker · File Forensics
+### ✅ Minecraft Anti-Cheat Toolkit · Mod Checker · File Forensics
 
-**FMTool** — мощный инструмент для проверки Minecraft модов на наличие чита, анализа подозрительных файлов и форензики. Разработан для серверов **FunMoon**.
+**Мощный инструмент для проверки Minecraft модов на наличие читов, анализа подозрительных файлов и цифровой форензики. Разработан специально для серверов **FunMoon**.**
 
-[![Release](https://img.shields.io/github/v/release/zxc1337funmoon-ops/FM?style=flat-square&logo=github&color=3178C6)](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/zxc1337funmoon-ops/FM/total?style=flat-square&logo=docusign&color=3178C6)](https://github.com/zxc1337funmoon-ops/FM/releases)
-[![License](https://img.shields.io/badge/License-MIT-3178C6?style=flat-square)](LICENSE)
-[![.NET](https://img.shields.io/badge/.NET-8.0-7B1FA2?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
-[![Windows](https://img.shields.io/badge/Windows-10|11-0078D6?style=flat-square&logo=windows)](https://github.com/zxc1337funmoon-ops/FM/releases)
+[![Release](https://img.shields.io/github/v/release/zxc1337funmoon-ops/FM?style=for-the-badge&logo=github&color=3178C6&label=Release)](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/zxc1337funmoon-ops/FM/total?style=for-the-badge&logo=docusign&color=3178C6&label=Downloads)](https://github.com/zxc1337funmoon-ops/FM/releases)
+[![Stars](https://img.shields.io/github/stars/zxc1337funmoon-ops/FM?style=for-the-badge&logo=github&color=3178C6&label=Stars)](https://github.com/zxc1337funmoon-ops/FM)
+[![License](https://img.shields.io/badge/License-MIT-3178C6?style=for-the-badge&logo=opensourceinitiative)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-8.0-7B1FA2?style=for-the-badge&logo=dotnet)](https://dotnet.microsoft.com/)
+[![Windows](https://img.shields.io/badge/Windows-10|11-0078D6?style=for-the-badge&logo=windows)](https://github.com/zxc1337funmoon-ops/FM/releases)
 
 </div>
 
 ---
 
-## О FMTool
+## 📋 Содержание
 
-FMTool — швейцарский нож для модератора Minecraft. Анализирует моды, находит читы, собирает доказательства.
+| 🎯 О FMTool | ⚙️ Возможности | 🖼️ Report Window |
+|---|---|---|
+| 🛠️ Инструменты | 🎨 Темы оформления | 🌍 Языки |
+| 📦 Установка | 💻 Системные требования | ❓ FAQ |
+| 📝 Список изменений | 🧭 Планы | 📄 Лицензия |
+
+---
+
+## 🎯 О FMTool
+
+> **FMTool** — это швейцарский нож для модератора Minecraft. Он не просто сканирует файлы — он анализирует, сравнивает и находит то, что скрыто от глаз.
 
 | Для кого | Зачем |
-|----------|-------|
-| Модераторы Minecraft | Проверить подозрительный мод |
-| Администраторы | Собрать доказательства для бана |
-| Специалисты безопасности | Автоматизировать проверки |
+|:---|:---|
+| 🛡️ Модераторы Minecraft | 🔍 Проверить подозрительный мод |
+| 👨‍💻 Администраторы | 📋 Собрать доказательства для бана |
+| 🛡️ Специалисты безопасности | ⚙️ Автоматизировать проверки |
 
 ---
 
-## Возможности
+## ⚙️ Возможности
 
-### Mod Checker
-- **300+ сигнатур** — база известных читов
-- **SHA-256 хэш** — уникальный отпечаток файла
-- **Байт-код анализ** — поиск подозрительных паттернов
-- **Оценка угрозы** — от 0 до 100+
-- **4 потока** — мгновенное сканирование
+### 🕵️ Mod Checker — ядро программы
 
-### File Forensics
-- **PE-анализатор** — проверка exe/dll
-- **Энтропия** — выявление упаковщиков
-- **YARA-правила** — кастомные сигнатуры
-- **5 уровней угрозы** — группировка
+| 🧬 | Описание |
+|:---|:---|
+| 🧪 **300+ сигнатур** | 300+ сигнатур известных читов |
+| 🔐 **SHA-256 хэш** | SHA-256 хэш для идентификации файлов |
+| ⚙️ **Байт-код анализ** | Байт-код анализ подозрительных паттернов |
+| 📊 **Оценка угрозы** | Оценка угрозы от 0 до 100+ |
+| ⚡ **Параллельное сканирование** | Параллельное сканирование в 4 потока |
+
+### 📦 Форензика файлов
+
+| Модуль | Описание |
+|:---|:---|
+| 🛡️ **PE-анализатор** | PE-анализатор для .exe/.dll |
+| 📈 **Энтропия** | Энтропия для выявления упаковщиков |
+| 📜 **YARA-правила** | YARA-правила для точных срабатываний |
+| 🔤 **Строки** | Извлечение текста из бинарников |
+| 📂 **Группировка** | Группировка по 5 уровням угрозы |
+
+### 📊 Report Window
+
+- 🖳️ Два окна с удобной навигацией
+- 📤 Экспорт в TXT, HTML, JSON — простой текст, HTML с подсветкой, JSON для машинной обработки
+
+### ⚙️ Удобства
+
+| | | |
+|:---:|:---:|:---:|
+| 🔄 Автообновление | 🖱️ Drag-and-drop | 🎨 Плавные темы |
+| 📐 Адаптивный интерфейс | ⌨️ Горячие клавиши | 🚀 Автозапуск |
 
 ---
 
-## Установка
+## 🛠️ Инструменты
 
+Панель быстрого доступа к **14 утилитам** для расследований:
+
+| # | Имя | Назначение |
+|:---:|:---|:---|
+| 1 | 🧰 HxD | Шестнадцатеричный редактор |
+| 2 | 🔎 Everything | Мгновенный поиск файлов |
+| 3 | 📊 SystemInformer | Мониторинг процессов |
+| 4 | ☕ Luyten | Декомпилятор Java |
+| 5 | 📁 PrefetchView++ | Анализ Prefetch-файлов |
+| 6 | 💾 USBDriveLog | Журнал USB-устройств |
+| 7 | 📜 JournalTrace | Анализ USN Journal |
+| 8 | 🗂️ ShellBag Analyzer | Разбор ShellBag-данных |
+| 9 | 📋 ExecutedProgramsList | Список запускаемых программ |
+| 10 | 🧹 CleaningDetector | Обнаружение чисток |
+| 11 | 🔗 PathsParser | Парсинг путей |
+| 12 | 💉 InjGen | Обнаружение инъекций |
+| 13 | ☕ Java JRE 8 | Установщик Java JRE 8 |
+| 14 | ➕ И другие | Постоянно добавляются |
+
+---
+
+## 🎨 Темы оформления
+
+| Тема | Описание |
+|:---|:---|
+| **Dark** ⚫ | Классическая тёмная, минимализм |
+| **Arctic** ❄️ | Холодная сине-голубая |
+| **Emerald** 💚 | Глубокая изумрудная |
+| **Rose** 🌹 | Мягкая розовая гамма |
+| **Cherry** 🍒 | Насыщенная красная |
+| **Gold** ⭐ | Роскошная золотистая |
+| **Violet** 💜 | Фиолетовая, мистическая |
+
+> Все темы поддерживают: плавные переходы, сглаженные углы, эффект стекла (Mica) на Windows 10/11.
+
+---
+
+## 🌍 Языки
+
+| | 🇷🇺 Русский | 🇬🇧 Английский |
+|:---|:---:|:---:|
+| 🖥️ Интерфейс | ✅ | ✅ |
+| 📝 Отчёты | ✅ | ✅ |
+| 🔄 Переключение | На лету, без перезапуска |
+
+---
+
+## 📦 Установка
+
+### 🚀 Быстрый старт
+```
 1. Скачай последний релиз
 2. Запусти .exe
 3. Готово!
+```
+
+| | 📦 Портативная версия | 🖥️ Установщик |
+|:---|:---:|:---:|
+| 🚫 Не оставляет следов | ✅ | ❌ |
+| 💾 Работает с флешки | ✅ | ❌ |
+| 🗺️ Ярлык в меню Пуск | ❌ | ✅ |
+| 📁 Ассоциации файлов | ❌ | ✅ |
+| 🔑 Требует права админа | ❌ | ✅ |
+
+> ⚠️ **Антивирус может ругаться** — это нормально для инструментов безопасности. Добавь папку в исключения.
 
 ---
 
-## Лицензия
+## 💻 Системные требования
 
-MIT License.
+| Параметр | Требование |
+|:---|:---|
+| 🖥️ **ОС** | Windows 10 / 11 (x64) |
+| 🧠 **RAM** | от 2 GB |
+| 💾 **Диск** | ~250 MB (setup) / ~50 MB (portable) |
+| 📦 **.NET** | Встроен (self-contained) |
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><b>🛡️ Антивирус удаляет FMTool. Что делать?</b></summary>
+
+Добавь папку с программой в исключения антивируса. FMTool — это инструмент безопасности с открытым исходным кодом. Ты всегда можешь проверить исходники и собрать сам.
+</details>
+
+<details>
+<summary><b>🛠️ Не открываются утилиты (Luyten, HxD...)?</b></summary>
+
+FMTool только открывает уже установленные программы. Скачай их отдельно и установи.
+</details>
+
+<details>
+<summary><b>☕ Не работает декомпиляция Java?</b></summary>
+
+Нажми кнопку **Java JRE 8** в панели утилит — установщик сам скачает и настроит всё необходимое.
+</details>
+
+<details>
+<summary><b>🐧 Будет версия для macOS / Linux?</b></summary>
+
+Пока нет. FMTool использует Windows API для анализа PE-файлов, работы с реестром и системными утилитами.
+</details>
+
+<details>
+<summary><b>🤝 Хочу помочь проекту!</b></summary>
+
+Ставь ⭐, сообщай о багах, предлагай идеи, улучшай документацию.
+</details>
+
+---
+
+## 🧭 Планы
+
+- [x] 🔍 Mod Checker (300+ сигнатур)
+- [x] 📦 File Forensics (PE, энтропия, YARA)
+- [x] 🎨 7 тем оформления
+- [x] 🛠️ 14 встроенных утилит
+- [x] 🌍 Двуязычный интерфейс
+- [ ] 📸 Скриншоты в README
+- [ ] 🎬 Демо GIF
+- [ ] 📦 CI/CD автоматическая сборка
+- [ ] 🌐 Веб-версия отчётов
+- [ ] 🔗 API для интеграции с сервером
+- [ ] 🧪 Тестовый режим (sandbox)
+- [ ] 📱 Telegram Bot уведомления
+
+---
+
+## 📝 Список изменений
+
+### 🟢 v1.0.2 — Исправления и улучшения
+- ☕ Добавлен установщик Java JRE 8
+- 🔍 Поиск по классам на вкладке Classes
+- 🛡️ Исправлен парсинг сигнатур
+- 📋 70+ системных файлов в белый список
+- 🛑 Улучшен обработка UAC
+
+### 🟡 v1.0.1 — Чистка
+- 🧹 Удалены дубликаты и мусор
+
+### 🔴 v1.0.0 — Первый релиз
+- 🔍 Mod Checker, сканер, 7 тем, 12 утилит
+
+---
+
+## 📄 Лицензия
+
+MIT License. См. [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
 
-**FMTool** — сделан с любовью для сообщества **FunMoon**
+---
 
-Автор: **zxc1337**
+**FMTool** — Сделано с любовью для сообщества **FunMoon**
 
-[Скачать](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
+🧑‍💻 Автор: **zxc1337** · FunMoon Team © 2025
+
+[![Release](https://img.shields.io/badge/-%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-3178C6?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/releases/latest)
+[![Bugs](https://img.shields.io/badge/-%D0%A1%D0%BE%D0%BE%D0%B1%D1%89%D0%B8%D1%82%D1%8C_%D0%BE_%D0%B1%D0%B0%D0%B3%D0%B5-red?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/issues)
+[![Ideas](https://img.shields.io/badge/-%D0%9F%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B8%D1%82%D1%8C_%D0%B8%D0%B4%D0%B5%D1%8E-green?style=for-the-badge&logo=github)](https://github.com/zxc1337funmoon-ops/FM/issues)
 
 </div>
